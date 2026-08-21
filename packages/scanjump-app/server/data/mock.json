@@ -1,0 +1,46 @@
+{
+  "shortlinks": {
+    "a8sd92": {
+      "route": "/pages/detail/detail",
+      "query": { "id": 1001, "type": "article" },
+      "desc": "文章详情短链"
+    },
+    "b3kf71": {
+      "route": "/pages/result/result",
+      "query": { "from": "share", "msg": "来自分享链接" },
+      "desc": "分享结果页短链"
+    },
+    "c9xe24": {
+      "route": "/pages/detail/detail",
+      "query": { "id": 3001, "type": "product" },
+      "desc": "商品详情短链"
+    }
+  },
+  "tokens": {
+    "token_abc123": {
+      "route": "/pages/detail/detail",
+      "query": { "id": 2001, "from": "token" },
+      "desc": "Token二维码示例1",
+      "expiresAt": null
+    },
+    "token_def456": {
+      "route": "/pages/result/result",
+      "query": { "source": "scan", "level": "admin" },
+      "desc": "Token二维码示例2",
+      "expiresAt": "2026-12-31T23:59:59Z"
+    },
+    "token_expired": {
+      "route": "/pages/result/result",
+      "query": { "source": "expired" },
+      "desc": "已过期Token示例",
+      "expiresAt": "2025-01-01T00:00:00Z"
+    }
+  },
+  "deeplinkStrategies": {
+    "default": {
+      "method": "scheme",
+      "scheme": "scanjump://",
+      "fallback": "https://app.example.com/open"
+    }
+  }
+}

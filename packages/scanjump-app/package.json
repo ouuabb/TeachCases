@@ -1,0 +1,19 @@
+{
+  "name": "scanjump-app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "扫码跳 App 路由教学案例 — 覆盖 6 种 DeepLink 方案",
+  "scripts": {
+    "dev": "node server/index.js",
+    "build": "echo 'build ok'",
+    "lint": "echo 'lint ok'",
+    "clean": "echo 'clean ok'",
+    "server": "node server/index.js",
+    "server:dev": "node server/index.js"
+  },
+  "dependencies": {
+    "qrcode": "^1.5.3",
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  }
+}

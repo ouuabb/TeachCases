@@ -1,0 +1,21 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "TEAMID.com.scanjump.app",
+        "paths": [
+          "/detail/*",
+          "/open/*",
+          "/q/*",
+          "/ul/*"
+        ]
+      }
+    ]
+  },
+  "webcredentials": {
+    "apps": [
+      "TEAMID.com.scanjump.app"
+    ]
+  }
+}

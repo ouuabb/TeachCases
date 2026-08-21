@@ -1,0 +1,75 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "扫码跳App路由方案",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/demo-scheme/demo-scheme",
+			"style": {
+				"navigationBarTitleText": "方案一：URL Scheme"
+			}
+		},
+		{
+			"path": "pages/demo-universal/demo-universal",
+			"style": {
+				"navigationBarTitleText": "方案二：Universal Link"
+			}
+		},
+		{
+			"path": "pages/demo-h5/demo-h5",
+			"style": {
+				"navigationBarTitleText": "方案三：H5中转页"
+			}
+		},
+		{
+			"path": "pages/demo-unilink/demo-unilink",
+			"style": {
+				"navigationBarTitleText": "方案四：UniLink"
+			}
+		},
+		{
+			"path": "pages/demo-thirdparty/demo-thirdparty",
+			"style": {
+				"navigationBarTitleText": "方案五：第三方DeepLink"
+			}
+		},
+		{
+			"path": "pages/demo-token/demo-token",
+			"style": {
+				"navigationBarTitleText": "方案六：Token二维码"
+			}
+		},
+		{
+			"path": "pages/result/result",
+			"style": {
+				"navigationBarTitleText": "跳转结果"
+			}
+		},
+		{
+			"path": "pages/detail/detail",
+			"style": {
+				"navigationBarTitleText": "详情页"
+			}
+		},
+		{
+			"path": "pages/h5-redirect/h5-redirect",
+			"style": {
+				"navigationBarTitleText": "打开App",
+				"navigationStyle": "custom"
+			}
+		}
+	],
+
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "ScanJumpApp",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+
+	"uniIdRouter": {}
+}
