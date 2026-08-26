@@ -1,0 +1,20 @@
+{
+  "name": "dsh-cordis",
+  "version": "0.1.0",
+  "private": true,
+  "description": "DSH (deepseek-harness) vendored Cordis 源码教学：逐文件文档 + 可运行示例",
+  "type": "module",
+  "scripts": {
+    "demo": "tsx code/run-all.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@deepseek-ai/cosmokit": "file:vendor/cosmokit"
+  },
+  "devDependencies": {
+    "@standard-schema/spec": "^1.0.0",
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  }
+}
