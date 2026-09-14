@@ -1,0 +1,21 @@
+{
+  "name": "analytics-tracking",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "数据埋点教学项目：从前端SDK到后端存储的完整埋点方案",
+  "scripts": {
+    "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\"",
+    "dev:server": "node server/index.js",
+    "dev:client": "cd client && npx vite --port 3001",
+    "build": "cd client && npx vite build",
+    "lint": "cd client && npx eslint src/"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "admin-excel-import",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Excel 导入导出教学项目：前端 Vue + 后端 Express + xlsx 实现数据管理",
+  "scripts": {
+    "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\"",
+    "dev:server": "node server/index.js",
+    "dev:client": "cd client && npx vite --port 3001",
+    "build": "cd client && npx vite build"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "multer": "^1.4.5-lts.1",
+    "xlsx": "^0.18.5",
+    "concurrently": "^8.2.2"
+  }
+}
